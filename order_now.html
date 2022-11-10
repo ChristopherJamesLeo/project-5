@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Order Now</title>
+        <script src="https://kit.fontawesome.com/2ea2780247.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media_style.css">
+    </head>
+<body>
+    <div class="order_contain_div">
+        <div class="order_logo_div">
+            <img src="./imageFile/union-gas-logo.png" class="ord_logo" alt="union-gas-logo">
+        </div>
+        <div class="contact_order_div">
+            <form action="" method="get" enctype="multipart/form-data">
+                <label for="contanct_no" class="contact">Contanct Number</label><br>
+                <label for="contanct_no" style="font-size: 20px; margin-right: 10px;">+65</label>
+                <input type="number" name="contanct_no" id="contanct_no" class="contanct_no" placeholder="e.g.98765432" autofocus required><br><br>
+                <label for="postalCode" class="postal">Postal Code</label><br>
+                <input type="number" name="postalCode" id="postalCode" class="postalCode" placeholder="e.g.123456" required>
+            </form>
+        </div>
+        <div class="order_itm_div">
+            <div class="ord_itm_head">
+                <h3>Items</h3>
+            </div>
+            <div class="ord_itm">
+                <ul class="ord_li">
+                    <li class="ord_itm_lis">
+                        <table class="order_table">
+                            <tbody class="Ordar_table_row">
+                                <tr>
+                                    <td>
+                                        <img src="./imageFile/Union-Cylinder_600x600px-100x100.png" alt="">
+                                    </td>
+                                    <td>
+                                        <span><strong>LPG 12.7KG</strong> </span>
+                                    </td>
+                                    <td class="table_count">
+                                        <span><strong>SGD $36.00</strong> </span><br>
+                                        <select name="count" id="count" class="count">
+                                            <option value="0">0</option>
+                                            <option value="1" selected>1</option>
+                                            <option value="2">2</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="./imageFile/$10 Deposit-100x100.png" alt="">
+                                    </td>
+                                    <td>
+                                        <span><strong>Empty Cylinder Deposit (For New Customer</strong> </span>
+                                    </td>
+                                    <td class="table_count">
+                                        <span><strong>SGD $10.00</strong> </span><br>
+                                        <select name="count" id="count" class="count">
+                                            <option value="0" selected>0</option>
+                                            <option value="1" >1</option>
+                                            <option value="2">2</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                    <hr>
+                    <li class="ord_itm_lis" >
+                        <span><strong>Have a Coupon / Voucher Code?</strong></span>
+                    </li>
+                    <hr>
+                    <li class="ord_itm_lis">
+                        <table class="tfoot">
+                            <tfoot>
+                                <tr>
+                                    <td class="tfoot_subtitle">
+                                        <span><strong>Sub-Total</strong> </span>
+                                    </td>
+                                    <td class="table_count">
+                                        <strong>SGD $0.00</strong> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tfoot_subtitle">
+                                        <span><strong>Total</strong> </span>
+                                    </td>
+                                    <td class="table_count">
+                                        <strong>SGD $0.00</strong> 
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

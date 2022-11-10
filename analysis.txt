@@ -1,0 +1,8 @@
+Page Nanlysis
+
+Nav Bar တွင် ul နှင့် li tag အား float - left ၊  position relative သုံး၍ sec nav bar တွင် position - relative / float - none / top-100% နှင့် left- 0 % အား ချိန်ညှိ ပြီး float တန်ဖိုး left ပေးခဲ့သည်။ 
+nav hover > display -none / block ထားခဲ့သည်။
+background img အား position-center / size - 100 % ပေးခဲ့သည်. 
+background img အား hover သုံး၍ size အား 120% ပေးသည်။ transition အား hover အတွင်းသာ ရေးရသည်။
+background img တွင် linear gardient ( 360 deg , rgba , transparent ) သုံးခဲ့သည်။ ၄င်းသည် img နှင့် div အား ပိုမိုလှပသော အရောင်ကိုဖြစ်ပေါ်စေသည် ။
+
